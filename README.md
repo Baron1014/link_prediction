@@ -1,5 +1,5 @@
 # link_prediction
-Link prediction is a fundamental task in network analysis, particularly in the fields of graph theory and social network analysis. It leverages the existing network structure and connection patterns to predict missing or potential edges (links) within a given network. Its purpose is to infer or estimate connections that may exist but have not been observed or explicitly defined. In this experiment, we utilized three datasets provided by Professor Cheng-Te Li of  Institute of Data Science at NCKU. We implemented link prediction using various common graph feature indicators to identify the best-performing features and model combinations.
+Link prediction is a fundamental task in network analysis, particularly in the fields of graph theory and social network analysis. It leverages the existing network structure and connection patterns to predict missing or potential edges (links) within a given network. Its purpose is to infer or estimate connections that may exist but have not been observed or explicitly defined. In this experiment, we used three datasets provided by Professor Cheng-Te Li from the Institute of Data Science at NCKU. We implemented link prediction using various common graph feature indicators to identify the best-performing features and model combinations.
 <div align="center">
 <img src="https://i.imgur.com/Q8PqRSe.png" width="50%" >
 </div>
@@ -58,13 +58,13 @@ Link prediction is a fundamental task in network analysis, particularly in the f
     <th><CENTER>AUC</th> <th><CENTER>AP</th>
   </tr>
   <tr>
-    <td><CENTER> V <td>  <td>  <td> .659 <td> .775 <td> .669<td> .774
+    <td style="text-align: center;"> V <td>  <td>  <td> .659 <td> .775 <td> .669<td> .774
   </tr>
   <tr>
-    <td><CENTER> V <td><CENTER> V <td>  <td> .654 <td> .772<td> .668 <td>  .773
+    <td style="text-align: center;">V <td style="text-align: center;"> V <td>  <td> .654 <td> .772<td> .668 <td>  .773
   </tr>
   <tr>
-    <td><CENTER> V <td><CENTER> V <td><CENTER> V  <td> .655 <td> .773 <td> .656 <td>  .768
+    <td style="text-align: center;"> V <td style="text-align: center;"> V <td style="text-align: center;"> V  <td> .655 <td> .773 <td> .656 <td>  .768
   </tr>
   
  </table>
@@ -84,13 +84,13 @@ Link prediction is a fundamental task in network analysis, particularly in the f
     <th><CENTER>AUC</th> <th><CENTER>AP</th>
   </tr>
   <tr>
-    <td><CENTER> V <td>  <td>  <td> .812 <td> .865 <td> .759 <td> .843
+    <td style="text-align: center;"> V <td>  <td>  <td> .812 <td> .865 <td> .759 <td> .843
   </tr>
   <tr>
-    <td><CENTER> V <td><CENTER> V <td>  <td> .812 <td> .864 <td> .738 <td>  .834
+    <td style="text-align: center;"> V <td style="text-align: center;"> V <td>  <td> .812 <td> .864 <td> .738 <td>  .834
   </tr>
   <tr>
-    <td><CENTER> V <td><CENTER> V <td><CENTER> V  <td> .833<td> .871 <td> .772 <td>  .843
+    <td style="text-align: center;"> V <td style="text-align: center;"> V <td style="text-align: center;"> V  <td> .833<td> .871 <td> .772 <td>  .843
   </tr>
   
  </table>
